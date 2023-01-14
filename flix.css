@@ -1,19 +1,22 @@
 .conteinor {
     border: 2px solid lightcoral;
     height: 400px;
-    justify-content: space-around;
+     /* justify-content: space-around; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */ 
     /* flex-wrap: ; */
     /* flex-grow:1 ; */
     /* flex-direction: column; */
 
+}
+#box-2 {
+    flex-grow:1 ;
 }
 
 .box {
     font-size: 2em;
     font-weight: 800;
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     border: 1px dotted red;
 }
